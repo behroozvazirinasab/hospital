@@ -10,3 +10,12 @@ E:\PROJECTS\hospital\HospitalSystem\H.IocConfig\obj\Debug\net6.0\H.IocConfig.dll
 E:\PROJECTS\hospital\HospitalSystem\H.IocConfig\obj\Debug\net6.0\refint\H.IocConfig.dll
 E:\PROJECTS\hospital\HospitalSystem\H.IocConfig\obj\Debug\net6.0\H.IocConfig.pdb
 E:\PROJECTS\hospital\HospitalSystem\H.IocConfig\obj\Debug\net6.0\ref\H.IocConfig.dll
+E:\PROJECTS\hospital\HospitalSystem\H.IocConfig\bin\Debug\net6.0\H.IocConfig.runtimeconfig.json
+E:\PROJECTS\hospital\HospitalSystem\H.IocConfig\bin\Debug\net6.0\H.Common.dll
+E:\PROJECTS\hospital\HospitalSystem\H.IocConfig\bin\Debug\net6.0\H.DataLayer.dll
+E:\PROJECTS\hospital\HospitalSystem\H.IocConfig\bin\Debug\net6.0\H.DataMdel.dll
+E:\PROJECTS\hospital\HospitalSystem\H.IocConfig\bin\Debug\net6.0\H.DataLayer.pdb
+E:\PROJECTS\hospital\HospitalSystem\H.IocConfig\bin\Debug\net6.0\H.Common.pdb
+E:\PROJECTS\hospital\HospitalSystem\H.IocConfig\bin\Debug\net6.0\H.DataMdel.pdb
+E:\PROJECTS\hospital\HospitalSystem\H.IocConfig\obj\Debug\net6.0\H.IocConfig.csproj.CopyComplete
+E:\PROJECTS\hospital\HospitalSystem\H.IocConfig\obj\Debug\net6.0\H.IocConfig.genruntimeconfig.cache

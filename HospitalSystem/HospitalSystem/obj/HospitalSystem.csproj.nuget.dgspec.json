@@ -4,14 +4,14 @@
     "E:\\PROJECTS\\hospital\\HospitalSystem\\HospitalSystem\\HospitalSystem.csproj": {}
   },
   "projects": {
-    "E:\\PROJECTS\\hospital\\HospitalSystem\\HospitalSystem\\HospitalSystem.csproj": {
+    "E:\\PROJECTS\\hospital\\HospitalSystem\\H.Common\\H.Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\PROJECTS\\hospital\\HospitalSystem\\HospitalSystem\\HospitalSystem.csproj",
-        "projectName": "HospitalSystem",
-        "projectPath": "E:\\PROJECTS\\hospital\\HospitalSystem\\HospitalSystem\\HospitalSystem.csproj",
+        "projectUniqueName": "E:\\PROJECTS\\hospital\\HospitalSystem\\H.Common\\H.Common.csproj",
+        "projectName": "H.Common",
+        "projectPath": "E:\\PROJECTS\\hospital\\HospitalSystem\\H.Common\\H.Common.csproj",
         "packagesPath": "C:\\Users\\behrooz_bvn\\.nuget\\packages\\",
-        "outputPath": "E:\\PROJECTS\\hospital\\HospitalSystem\\HospitalSystem\\obj\\",
+        "outputPath": "E:\\PROJECTS\\hospital\\HospitalSystem\\H.Common\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -42,6 +42,343 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.5, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\PROJECTS\\hospital\\HospitalSystem\\H.DataLayer\\H.DataLayer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\PROJECTS\\hospital\\HospitalSystem\\H.DataLayer\\H.DataLayer.csproj",
+        "projectName": "H.DataLayer",
+        "projectPath": "E:\\PROJECTS\\hospital\\HospitalSystem\\H.DataLayer\\H.DataLayer.csproj",
+        "packagesPath": "C:\\Users\\behrooz_bvn\\.nuget\\packages\\",
+        "outputPath": "E:\\PROJECTS\\hospital\\HospitalSystem\\H.DataLayer\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\behrooz_bvn\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "E:\\PROJECTS\\hospital\\HospitalSystem\\H.DataMdel\\H.DataMdel.csproj": {
+                "projectPath": "E:\\PROJECTS\\hospital\\HospitalSystem\\H.DataMdel\\H.DataMdel.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\PROJECTS\\hospital\\HospitalSystem\\H.DataMdel\\H.DataMdel.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\PROJECTS\\hospital\\HospitalSystem\\H.DataMdel\\H.DataMdel.csproj",
+        "projectName": "H.DataMdel",
+        "projectPath": "E:\\PROJECTS\\hospital\\HospitalSystem\\H.DataMdel\\H.DataMdel.csproj",
+        "packagesPath": "C:\\Users\\behrooz_bvn\\.nuget\\packages\\",
+        "outputPath": "E:\\PROJECTS\\hospital\\HospitalSystem\\H.DataMdel\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\behrooz_bvn\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "E:\\PROJECTS\\hospital\\HospitalSystem\\H.Common\\H.Common.csproj": {
+                "projectPath": "E:\\PROJECTS\\hospital\\HospitalSystem\\H.Common\\H.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\PROJECTS\\hospital\\HospitalSystem\\H.IocConfig\\H.IocConfig.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\PROJECTS\\hospital\\HospitalSystem\\H.IocConfig\\H.IocConfig.csproj",
+        "projectName": "H.IocConfig",
+        "projectPath": "E:\\PROJECTS\\hospital\\HospitalSystem\\H.IocConfig\\H.IocConfig.csproj",
+        "packagesPath": "C:\\Users\\behrooz_bvn\\.nuget\\packages\\",
+        "outputPath": "E:\\PROJECTS\\hospital\\HospitalSystem\\H.IocConfig\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\behrooz_bvn\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "E:\\PROJECTS\\hospital\\HospitalSystem\\H.DataLayer\\H.DataLayer.csproj": {
+                "projectPath": "E:\\PROJECTS\\hospital\\HospitalSystem\\H.DataLayer\\H.DataLayer.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.5, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\PROJECTS\\hospital\\HospitalSystem\\HospitalSystem\\HospitalSystem.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\PROJECTS\\hospital\\HospitalSystem\\HospitalSystem\\HospitalSystem.csproj",
+        "projectName": "HospitalSystem",
+        "projectPath": "E:\\PROJECTS\\hospital\\HospitalSystem\\HospitalSystem\\HospitalSystem.csproj",
+        "packagesPath": "C:\\Users\\behrooz_bvn\\.nuget\\packages\\",
+        "outputPath": "E:\\PROJECTS\\hospital\\HospitalSystem\\HospitalSystem\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\behrooz_bvn\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "E:\\PROJECTS\\hospital\\HospitalSystem\\H.DataMdel\\H.DataMdel.csproj": {
+                "projectPath": "E:\\PROJECTS\\hospital\\HospitalSystem\\H.DataMdel\\H.DataMdel.csproj"
+              },
+              "E:\\PROJECTS\\hospital\\HospitalSystem\\H.IocConfig\\H.IocConfig.csproj": {
+                "projectPath": "E:\\PROJECTS\\hospital\\HospitalSystem\\H.IocConfig\\H.IocConfig.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.5, )"
+            },
+            "System.Configuration.ConfigurationManager": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

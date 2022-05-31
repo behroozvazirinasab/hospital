@@ -1,0 +1,14 @@
+E:\PROJECTS\hospital\HospitalSystem\H.Common\bin\Debug\net6.0\H.Common.deps.json
+E:\PROJECTS\hospital\HospitalSystem\H.Common\bin\Debug\net6.0\H.Common.runtimeconfig.json
+E:\PROJECTS\hospital\HospitalSystem\H.Common\bin\Debug\net6.0\H.Common.dll
+E:\PROJECTS\hospital\HospitalSystem\H.Common\bin\Debug\net6.0\H.Common.pdb
+E:\PROJECTS\hospital\HospitalSystem\H.Common\obj\Debug\net6.0\H.Common.csproj.AssemblyReference.cache
+E:\PROJECTS\hospital\HospitalSystem\H.Common\obj\Debug\net6.0\H.Common.GeneratedMSBuildEditorConfig.editorconfig
+E:\PROJECTS\hospital\HospitalSystem\H.Common\obj\Debug\net6.0\H.Common.AssemblyInfoInputs.cache
+E:\PROJECTS\hospital\HospitalSystem\H.Common\obj\Debug\net6.0\H.Common.AssemblyInfo.cs
+E:\PROJECTS\hospital\HospitalSystem\H.Common\obj\Debug\net6.0\H.Common.csproj.CoreCompileInputs.cache
+E:\PROJECTS\hospital\HospitalSystem\H.Common\obj\Debug\net6.0\H.Common.dll
+E:\PROJECTS\hospital\HospitalSystem\H.Common\obj\Debug\net6.0\refint\H.Common.dll
+E:\PROJECTS\hospital\HospitalSystem\H.Common\obj\Debug\net6.0\H.Common.pdb
+E:\PROJECTS\hospital\HospitalSystem\H.Common\obj\Debug\net6.0\H.Common.genruntimeconfig.cache
+E:\PROJECTS\hospital\HospitalSystem\H.Common\obj\Debug\net6.0\ref\H.Common.dll

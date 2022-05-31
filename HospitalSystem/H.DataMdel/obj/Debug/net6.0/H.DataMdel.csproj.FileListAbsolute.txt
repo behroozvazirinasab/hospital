@@ -1,0 +1,17 @@
+E:\PROJECTS\hospital\HospitalSystem\H.DataMdel\bin\Debug\net6.0\H.DataMdel.deps.json
+E:\PROJECTS\hospital\HospitalSystem\H.DataMdel\bin\Debug\net6.0\H.DataMdel.runtimeconfig.json
+E:\PROJECTS\hospital\HospitalSystem\H.DataMdel\bin\Debug\net6.0\H.DataMdel.dll
+E:\PROJECTS\hospital\HospitalSystem\H.DataMdel\bin\Debug\net6.0\H.DataMdel.pdb
+E:\PROJECTS\hospital\HospitalSystem\H.DataMdel\bin\Debug\net6.0\H.Common.dll
+E:\PROJECTS\hospital\HospitalSystem\H.DataMdel\bin\Debug\net6.0\H.Common.pdb
+E:\PROJECTS\hospital\HospitalSystem\H.DataMdel\obj\Debug\net6.0\H.DataMdel.csproj.AssemblyReference.cache
+E:\PROJECTS\hospital\HospitalSystem\H.DataMdel\obj\Debug\net6.0\H.DataMdel.GeneratedMSBuildEditorConfig.editorconfig
+E:\PROJECTS\hospital\HospitalSystem\H.DataMdel\obj\Debug\net6.0\H.DataMdel.AssemblyInfoInputs.cache
+E:\PROJECTS\hospital\HospitalSystem\H.DataMdel\obj\Debug\net6.0\H.DataMdel.AssemblyInfo.cs
+E:\PROJECTS\hospital\HospitalSystem\H.DataMdel\obj\Debug\net6.0\H.DataMdel.csproj.CoreCompileInputs.cache
+E:\PROJECTS\hospital\HospitalSystem\H.DataMdel\obj\Debug\net6.0\H.DataMdel.csproj.CopyComplete
+E:\PROJECTS\hospital\HospitalSystem\H.DataMdel\obj\Debug\net6.0\H.DataMdel.dll
+E:\PROJECTS\hospital\HospitalSystem\H.DataMdel\obj\Debug\net6.0\refint\H.DataMdel.dll
+E:\PROJECTS\hospital\HospitalSystem\H.DataMdel\obj\Debug\net6.0\H.DataMdel.pdb
+E:\PROJECTS\hospital\HospitalSystem\H.DataMdel\obj\Debug\net6.0\H.DataMdel.genruntimeconfig.cache
+E:\PROJECTS\hospital\HospitalSystem\H.DataMdel\obj\Debug\net6.0\ref\H.DataMdel.dll

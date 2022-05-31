@@ -1,7 +1,18 @@
+using H.DataMdel.AP;
+using H.IocConfig;
+using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Options;
+using System.Configuration;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
+var connection = builder.Configuration.GetConnectionString("HConnectionstring");
+builder.Services.AddCustomsServices(connection);
+
 builder.Services.AddControllersWithViews();
+
+
 
 var app = builder.Build();
 
