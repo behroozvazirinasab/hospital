@@ -17,4 +17,9 @@
     </PackageReference>
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\H.DataLayer\H.DataLayer.csproj" />
+    <ProjectReference Include="..\H.DataMdel\H.DataMdel.csproj" />
+  </ItemGroup>
+
 </Project>

@@ -1,5 +1,7 @@
 ﻿using H.DataLayer.Context;
 using H.DataMdel.AP;
+using H.Services.IServices;
+using H.Services.Services;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Options;
@@ -21,6 +23,8 @@ namespace H.IocConfig
                 {
                     options.UseSqlServer(_connection);
                 });
+
+            services.AddScoped<IDaroService, DaroService>();
             
         }
     }
