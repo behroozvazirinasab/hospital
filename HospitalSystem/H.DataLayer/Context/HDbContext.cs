@@ -1,4 +1,5 @@
 ﻿using H.DataMdel.Models;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -8,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace H.DataLayer.Context
 {
-    public class HDbContext : DbContext
+    public class HDbContext : IdentityDbContext<UserModel,RoleModel, int> , IUnitOfWork
     {
         public HDbContext(DbContextOptions options)
         : base(options)
@@ -17,7 +18,20 @@ namespace H.DataLayer.Context
         }
 
 
+
+
+
+
         public DbSet<DaroModel> Daros { get; set; }
 
+
+
+
+
+
+        public Task<int> SaveChangesAsync()
+        {
+            return base.SaveChangesAsync();
+        }
     }
 }

@@ -1,5 +1,6 @@
 ﻿using H.DataLayer.Context;
 using H.DataMdel.Models;
+using H.DataMdel.ViewModel;
 using H.Services.IServices;
 using Microsoft.EntityFrameworkCore;
 using System;
@@ -12,22 +13,23 @@ namespace H.Services.Services
 {
     public class DaroService : IDaroService
     {
-        private readonly HDbContext _dbContext;
+        private readonly IUnitOfWork _uow;
         private readonly DbSet<DaroModel> _daro;
 
-        public DaroService(HDbContext dbContext)
+        public DaroService(IUnitOfWork uow)
         {
-            _dbContext = dbContext;
-            _daro = dbContext.Set<DaroModel>();
+            _uow = uow;
+            _daro = uow.Set<DaroModel>();
         }
 
 
 
 
 
-        public void Add(DaroModel daroModel) 
-            => _daro.Add(daroModel);
-
+        public void Add(DaroModel daroModel)
+        {
+            _daro.Add(daroModel);
+        }
 
         public List<DaroModel> GetAll()
             => _daro.ToList();

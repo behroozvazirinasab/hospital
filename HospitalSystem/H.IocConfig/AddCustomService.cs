@@ -1,15 +1,11 @@
 ﻿using H.DataLayer.Context;
 using H.DataMdel.AP;
+using H.DataMdel.Models;
 using H.Services.IServices;
 using H.Services.Services;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.Options;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace H.IocConfig
 {
@@ -24,8 +20,18 @@ namespace H.IocConfig
                     options.UseSqlServer(_connection);
                 });
 
+            services.AddScoped<IUnitOfWork, HDbContext>();
             services.AddScoped<IDaroService, DaroService>();
+
+
+            services.AddIdentity<UserModel,RoleModel>()
+                .AddEntityFrameworkStores<HDbContext>()
+                .AddDefaultTokenProviders();
             
+
+
+
+
         }
     }
 }
