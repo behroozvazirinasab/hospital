@@ -47,12 +47,18 @@ namespace HospitalSystem.Controllers
         }
 
 
-        public IActionResult Index()
+        public async Task<IActionResult> Index()
         {
+            //var daros = await _daroService.GetAllAsync();
             return View();
         }
 
         public IActionResult Privacy()
+        {
+            return View();
+        }
+
+        public IActionResult Register()
         {
             return View();
         }

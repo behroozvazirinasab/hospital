@@ -8,10 +8,8 @@ using System.Threading.Tasks;
 
 namespace H.Services.IServices
 {
-    public interface IDaroService
+    public interface IDaroService : IGenericServie<DaroModel>
     {
-        void Add(DaroModel daroModel);
-
-        List<DaroModel> GetAll();
+        
     }
 }

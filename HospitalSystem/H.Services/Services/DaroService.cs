@@ -11,12 +11,13 @@ using System.Threading.Tasks;
 
 namespace H.Services.Services
 {
-    public class DaroService : IDaroService
+    public class DaroService : GenericServie<DaroModel> ,IDaroService
     {
         private readonly IUnitOfWork _uow;
         private readonly DbSet<DaroModel> _daro;
 
         public DaroService(IUnitOfWork uow)
+            : base(uow)
         {
             _uow = uow;
             _daro = uow.Set<DaroModel>();
@@ -26,13 +27,13 @@ namespace H.Services.Services
 
 
 
-        public void Add(DaroModel daroModel)
-        {
-            _daro.Add(daroModel);
-        }
+        //public void Add(DaroModel daroModel)
+        //{
+        //    _daro.Add(daroModel);
+        //}
 
-        public List<DaroModel> GetAll()
-            => _daro.ToList();
+        //public List<DaroModel> GetAll()
+        //    => _daro.ToList();
         
     }
 }

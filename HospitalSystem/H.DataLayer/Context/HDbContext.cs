@@ -1,4 +1,5 @@
-﻿using H.DataMdel.Models;
+﻿using H.DataMdel.idenModel;
+using H.DataMdel.Models;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using System;
@@ -9,7 +10,8 @@ using System.Threading.Tasks;
 
 namespace H.DataLayer.Context
 {
-    public class HDbContext : IdentityDbContext<UserModel,RoleModel, int> , IUnitOfWork
+    public class HDbContext : IdentityDbContext<UserModel ,Role ,int ,UserClaim ,UserRole ,UserLogin ,RoleClaim ,UserToken> 
+        , IUnitOfWork
     {
         public HDbContext(DbContextOptions options)
         : base(options)
