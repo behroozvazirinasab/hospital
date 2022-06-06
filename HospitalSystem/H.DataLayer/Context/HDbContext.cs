@@ -25,6 +25,7 @@ namespace H.DataLayer.Context
 
 
         public DbSet<DaroModel> Daros { get; set; }
+        public DbSet<DoctorModel> Doctors { get; set; }
 
 
 

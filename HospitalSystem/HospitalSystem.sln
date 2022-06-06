@@ -5,15 +5,20 @@ VisualStudioVersion = 17.1.32228.430
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HospitalSystem", "HospitalSystem\HospitalSystem.csproj", "{EC9856A9-3682-4C34-BCE8-42A8E9D20DA1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "H.DataLayer", "H.DataLayer\H.DataLayer.csproj", "{22C68FF3-6D87-40BA-835B-2849A2CADFFF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "H.DataLayer", "H.DataLayer\H.DataLayer.csproj", "{22C68FF3-6D87-40BA-835B-2849A2CADFFF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "H.DataMdel", "H.DataMdel\H.DataMdel.csproj", "{8C4501B5-0AB3-4B72-8FB9-6E32283040A0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "H.DataMdel", "H.DataMdel\H.DataMdel.csproj", "{8C4501B5-0AB3-4B72-8FB9-6E32283040A0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "H.Common", "H.Common\H.Common.csproj", "{25449496-B1E1-4DE3-80E7-D757E05F0E05}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "H.Common", "H.Common\H.Common.csproj", "{25449496-B1E1-4DE3-80E7-D757E05F0E05}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "H.Services", "H.Services\H.Services.csproj", "{40DDC4B1-DE60-4E0D-858F-AA2BE6C004F7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "H.Services", "H.Services\H.Services.csproj", "{40DDC4B1-DE60-4E0D-858F-AA2BE6C004F7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "H.IocConfig", "H.IocConfig\H.IocConfig.csproj", "{11DD8254-C607-4D2D-91C1-0A570E741AD3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "H.IocConfig", "H.IocConfig\H.IocConfig.csproj", "{11DD8254-C607-4D2D-91C1-0A570E741AD3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestProject1", "TestProject1\TestProject1.csproj", "{D1D5E6EF-DCAE-4CF0-AA4B-2B2A2DEF90BB}"
+	ProjectSection(ProjectDependencies) = postProject
+		{EC9856A9-3682-4C34-BCE8-42A8E9D20DA1} = {EC9856A9-3682-4C34-BCE8-42A8E9D20DA1}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +50,10 @@ Global
 		{11DD8254-C607-4D2D-91C1-0A570E741AD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{11DD8254-C607-4D2D-91C1-0A570E741AD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{11DD8254-C607-4D2D-91C1-0A570E741AD3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1D5E6EF-DCAE-4CF0-AA4B-2B2A2DEF90BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1D5E6EF-DCAE-4CF0-AA4B-2B2A2DEF90BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1D5E6EF-DCAE-4CF0-AA4B-2B2A2DEF90BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1D5E6EF-DCAE-4CF0-AA4B-2B2A2DEF90BB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

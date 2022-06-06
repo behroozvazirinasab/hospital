@@ -9,9 +9,10 @@ namespace H.DataMdel.ViewModel
 {
     public class DaroViewModel
     {
-        [Required(ErrorMessage ="ridi")]
+        [Required(ErrorMessage ="error title")]
         public string? Title { get; set; }
-        [Required(ErrorMessage = "ridi")]
+
+        [Required(ErrorMessage = "error description")]
         public string? Description { get; set; }
     }
 }

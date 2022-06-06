@@ -15,6 +15,7 @@ namespace H.Services.IServices
 
 
         void Remove(TEntity entity);
+        void Remove(int id);
 
         void Update(TEntity entity);    
 

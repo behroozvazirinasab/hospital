@@ -48,7 +48,11 @@ namespace H.Services.Services
         public void Remove(TEntity entity)
             => _entity.Remove(entity);
 
-
+        public void Remove(int id)
+        {
+            var p = _entity.Find(id);
+            _entity.Remove(p);
+        }
 
         public void Update(TEntity entity)
             => _entity.Update(entity);

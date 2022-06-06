@@ -1,5 +1,6 @@
 ﻿using H.DataLayer.Context;
 using H.DataMdel.AP;
+using H.DataMdel.idenModel;
 using H.DataMdel.Models;
 using H.Services.IServices;
 using H.Services.Services;
@@ -24,7 +25,7 @@ namespace H.IocConfig
             services.AddScoped<IDaroService, DaroService>();
 
 
-            services.AddIdentity<UserModel,RoleModel>()
+            services.AddIdentity<UserModel,Role>()
                 .AddEntityFrameworkStores<HDbContext>()
                 .AddDefaultTokenProviders();
             
