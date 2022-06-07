@@ -13,7 +13,7 @@ namespace H.DataLayer.Context
     public class HDbContext : IdentityDbContext<UserModel ,Role ,int ,UserClaim ,UserRole ,UserLogin ,RoleClaim ,UserToken> 
         , IUnitOfWork
     {
-        public HDbContext(DbContextOptions options)
+        public HDbContext(DbContextOptions<HDbContext> options)
         : base(options)
         {
 
@@ -29,6 +29,16 @@ namespace H.DataLayer.Context
 
 
 
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            base.OnModelCreating(modelBuilder);
+
+            modelBuilder.Entity<DaroModel>().HasData(
+                new DaroModel { ID = 1, Title = "To Shiraz" },
+                new DaroModel { ID = 2, Title = "To Esfahan" },
+                new DaroModel { ID = 3, Title = "To Mashhad" }
+            );
+        }
 
 
 

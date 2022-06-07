@@ -34,6 +34,6 @@ namespace H.Services.Services
 
         //public List<DaroModel> GetAll()
         //    => _daro.ToList();
-        
+
     }
 }
