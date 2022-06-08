@@ -22,7 +22,8 @@ namespace H.IocConfig
                 });
 
             services.AddScoped<IUnitOfWork, HDbContext>();
-            services.AddScoped<IDaroService, DaroService>();
+ //           services.AddScoped<IDaroService, DaroService>();
+            services.AddScoped<IGenericServie<DaroModel>, DaroService>();
 
 
             services.AddIdentity<UserModel,Role>()
